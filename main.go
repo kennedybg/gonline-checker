@@ -9,7 +9,6 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	"time"
 )
 
 const numMonitoring = 5
@@ -45,7 +44,8 @@ func readMenuInput() int {
 	return read
 }
 
-func startMonitor() {
+func startMonitor() 
+{
 	fmt.Println("Monitoring......")
 
 	sites := getSites()
