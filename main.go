@@ -65,7 +65,7 @@ func startMonitor() {
 		time.Sleep(delay * time.Second)
 		fmt.Println("")
 	}
-	fmt.Println("FINISHED")
+	fmt.Println("FINISHED!")
 	fmt.Println("")
 }
 
